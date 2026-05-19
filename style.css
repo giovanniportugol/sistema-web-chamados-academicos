@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #222;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  padding: 30px 20px;
+}
+
+header h1 {
+  margin-bottom: 10px;
+  font-size: 28px;
+}
+
+header p {
+  font-size: 16px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card h2 {
+  margin-bottom: 20px;
+  color: #1f2937;
+}
+
+label {
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccd1d5;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button {
+  margin-top: 18px;
+  width: 100%;
+  padding: 12px;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.chamado {
+  border-left: 5px solid #2563eb;
+  background-color: #f9fafb;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+
+.chamado h3 {
+  color: #1f2937;
+  margin-bottom: 8px;
+}
+
+.chamado p {
+  margin-bottom: 5px;
+}
+
+.status {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 5px 10px;
+  background-color: #dbeafe;
+  color: #1e40af;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.mensagem-vazia {
+  color: #666;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  color: #555;
+}
+
+@media (max-width: 768px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+}
