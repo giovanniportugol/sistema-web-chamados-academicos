@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema Web de Chamados Acadêmicos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Sistema Web de Chamados Acadêmicos</h1>
+    <p>Projeto acadêmico para simular abertura e acompanhamento de chamados.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Abrir chamado</h2>
+
+      <form id="formChamado">
+        <label for="nome">Nome do aluno</label>
+        <input type="text" id="nome" placeholder="Digite o nome do aluno" required>
+
+        <label for="matricula">Matrícula</label>
+        <input type="text" id="matricula" placeholder="Digite a matrícula" required>
+
+        <label for="curso">Curso</label>
+        <input type="text" id="curso" placeholder="Digite o curso" required>
+
+        <label for="assunto">Assunto</label>
+        <input type="text" id="assunto" placeholder="Ex: Matrícula, documentação, financeiro" required>
+
+        <label for="descricao">Descrição da solicitação</label>
+        <textarea id="descricao" rows="4" placeholder="Descreva a solicitação do aluno" required></textarea>
+
+        <button type="submit">Registrar chamado</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Chamados registrados</h2>
+      <div id="listaChamados">
+        <p class="mensagem-vazia">Nenhum chamado registrado até o momento.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Projeto acadêmico desenvolvido para estudos em Sistemas Web.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
