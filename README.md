@@ -8,6 +8,19 @@ Este projeto tem como objetivo representar, de forma simples e prática, um sist
 
 A proposta é simular um fluxo básico de Help Desk acadêmico, com formulário de abertura de chamados, listagem das solicitações e acompanhamento de status.
 
+## Funcionalidades
+
+- Formulário para abertura de chamados acadêmicos
+- Registro de nome do aluno
+- Registro de matrícula
+- Registro de curso
+- Registro de assunto
+- Registro da descrição da solicitação
+- Geração automática de ID do chamado
+- Exibição dos chamados registrados na tela
+- Status inicial do chamado como "Aberto"
+- Layout responsivo para computador e celular
+
 ## Funcionalidades previstas
 
 - Formulário para abertura de chamados
@@ -22,13 +35,15 @@ A proposta é simular um fluxo básico de Help Desk acadêmico, com formulário 
 
 ## Tecnologias utilizadas
 
+- ## Tecnologias utilizadas
+- 
 - HTML
 - CSS
 - JavaScript
 - Lógica de programação
 - Manipulação básica do DOM
+- Formulários web
 - Sistemas Web
-
 ## Objetivo profissional
 
 Demonstrar minha evolução nos estudos de Sistemas Web, aplicando conhecimentos iniciais de HTML, CSS e JavaScript em uma solução prática relacionada a atendimento, organização de demandas e ambiente acadêmico.
